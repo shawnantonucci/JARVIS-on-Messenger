@@ -12,6 +12,7 @@ def process(input, entities=None):
         'Oh, please do not go!',
         'It\'s sad to see you leave.',
         'Farewell! I hope I will see you soon.',
+        'Shutdown commencing in 3, 2, 1, goodbye!',
     ]
     if entities is not None:
         if 'sender' in entities and 'first_name' in entities['sender']:
